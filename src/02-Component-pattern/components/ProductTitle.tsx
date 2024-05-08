@@ -5,7 +5,7 @@ import { ProductContext } from './ProductCard';
 
 interface Props {
   title?: string;
-  className: string;
+  className?: string;
 }
 
 export const ProductTitle = ({ title, className }: Props) => {
